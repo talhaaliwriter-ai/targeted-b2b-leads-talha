@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="B2B mark placeholder">
-  <defs><linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#123d91"/></linearGradient></defs>
-  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#blue)"/>
-  <path d="M16 17h20a9 9 0 0 1 4.5 16.8A9.5 9.5 0 0 1 36 52H16z" fill="#fff" opacity=".97"/>
-  <path d="M24 25h11a3.5 3.5 0 0 1 0 7H24zm0 14h11.5a3.5 3.5 0 0 1 0 7H24z" fill="#123d91"/>
-  <path d="M45 18v28M42 21l3-3 3 3" fill="none" stroke="#facc15" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Targeted B2B Leads placeholder mark"><rect width="64" height="64" rx="18" fill="#10264a"/><circle cx="30" cy="30" r="17" fill="none" stroke="#fff" stroke-width="3"/><circle cx="30" cy="30" r="9" fill="none" stroke="#ffd447" stroke-width="3"/><circle cx="30" cy="30" r="3" fill="#ffd447"/><path d="M34 26 52 8M43 8h9v9" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>

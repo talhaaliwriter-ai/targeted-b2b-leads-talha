@@ -1,44 +1,56 @@
-# Targeted B2B lead research website
+# Targeted B2B Leads — multipage static website
 
-A responsive static website prepared for GitHub Pages. It uses plain HTML, CSS, and JavaScript, so there is no package installation, Node build step, or server-side code required. Headings use a consistent sentence-case style (while brand names and acronyms retain their proper capitalization), with different visual hierarchy for page, section, and card headings.
+This is a clean, editable, multipage HTML/CSS/JavaScript website prepared for GitHub Pages. No build tools, npm packages, or server-side code are required.
 
-## Included files
+## Pages
 
-```text
-index.html                  Main page (keep this at the publishing root)
-404.html                    Custom not-found page
-.nojekyll                   Tells GitHub Pages to serve the static files directly
-assets/css/styles.css       Layout, blue/white/navy theme, yellow accents, responsive rules
-assets/js/main.js           Navigation, table filtering, CSV download, quote form actions
-assets/images/brand-mark.svg Temporary B2B brand mark; replace with the final logo later
-assets/sample-leads.csv     Illustrative sample rows only
-```
+- `index.html` — homepage and service overview
+- `about.html` — about and approach
+- `services.html` — service directory
+- `b2b-lead-generation.html` — B2B lead generation details
+- `google-maps-lead-research.html` — Google Maps business lead research
+- `linkedin-lead-research.html` — LinkedIn lead research
+- `business-data-research.html` — business data research
+- `decision-maker-research.html` — decision-maker research
+- `excel-data-cleaning.html` — spreadsheet data cleaning
+- `spreadsheet-formatting.html` — spreadsheet formatting
+- `custom-lead-lists.html` — custom lead lists
+- `how-it-works.html` — detailed workflow
+- `faq.html` — frequently asked questions
+- `contact.html` — email/WhatsApp project form and social profiles
+- `privacy.html` — plain-language privacy notice
+- `404.html` — not-found page
 
-## Publish with GitHub Pages
+## Main assets
 
-1. Download and extract this ZIP on your computer.
-2. Create a GitHub repository. For a simple branch-based Pages deployment, a public repository is available on GitHub Free.
-3. Upload the **contents** of the extracted folder to the top level of the repository. `index.html` must be at the root, not buried in an extra folder.
-4. Open the repository's **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**; select branch `main` and folder `/(root)`, then save.
-6. Wait for the Pages deployment to finish. GitHub displays the published URL in Settings → Pages. First deployment or updates may take a few minutes.
+- `assets/css/styles.css` — shared responsive blue, white, navy, and yellow design
+- `assets/js/main.js` — mobile navigation, sample filtering, CSV download, and contact form
+- `assets/images/brand-mark.svg` — temporary logo mark; replace it with the final logo later
+- `assets/sample-leads.csv` — illustrative placeholder data, not real verified leads
+- `.nojekyll` — asks GitHub Pages to publish the static files directly
 
-Official guide: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+## GitHub Pages setup
 
-## Contact and social links
+1. Extract the ZIP on your computer.
+2. Upload all files and folders inside the extracted folder into the repository root. Do not upload only the ZIP or nest all files one level deeper.
+3. Keep `index.html` at the repository root.
+4. In **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/(root)`, and save.
+5. Wait for the deployment to complete; copy the published link from the Pages settings and test it.
 
-The new WhatsApp number and email are set in `index.html` and `assets/js/main.js`. WhatsApp links open a prefilled message. The quote form prepares an email through `mailto:`; it does **not** submit to a server and cannot send by itself. The visitor must confirm sending in their email app or WhatsApp.
+All internal page links use relative paths and should work on a GitHub Pages project site such as `https://USERNAME.github.io/REPOSITORY/`.
 
-The social links added are both LinkedIn profiles, Medium, X, and Pinterest, as provided for this site.
+## Contact details included
 
-## Replace the temporary mark with the final logo
+- WhatsApp: +92 325 1567109 (`https://wa.me/923251567109`)
+- Email: talhahashim816@gmail.com
+- LinkedIn — Talha Ali: https://www.linkedin.com/in/talha-ali-33418b384/
+- LinkedIn — Talha Freelancer: https://www.linkedin.com/in/talha-freelancer-369240396/
+- Medium: https://medium.com/@talhafreelancr109
+- X: https://x.com/Talha70234
+- Pinterest: https://uk.pinterest.com/talhafreelancr109/
 
-When the final logo is ready, replace `assets/images/brand-mark.svg` and keep that same filename (or update the two image references in `index.html`). The current mark is a temporary placeholder, not the final brand logo.
+The form opens the user's email application or WhatsApp with a prepared message. This static website does not store or submit contact form data to a server.
 
-## About the lead sample
+## Content notes
 
-The table and downloadable CSV use clearly illustrative demo rows and reserved `.example` domains. They are not real, verified leads. Replace the demo rows with authorized sample data before representing them as actual work.
-
-## Important implementation note
-
-The original uploaded website archive contained a compiled page snapshot and a bundled JavaScript file, but it did not contain its original editable React/Vite project source. This ZIP is therefore a clean, editable static reconstruction based on the available page content and features, not a recovered copy of the original source repository. The paths are relative so the site can work when published at a GitHub Pages project URL.
+Sample table entries and CSV rows are illustrative only and are not real, verified lead records. Availability of contact details varies by source; no email, phone, reply, or sales outcome is guaranteed.
